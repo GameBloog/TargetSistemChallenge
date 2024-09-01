@@ -1,43 +1,36 @@
-def proximo_elemento_a():
-    # Sequência de números ímpares consecutivos
+def next_element_a():
     sequencia = [1, 3, 5, 7]
-    proximo = sequencia[-1] + 2
-    print("a) Próximo elemento:", proximo)
+    next = sequencia[-1] + 2
+    print("a) Próximo elemento:", next)
 
-def proximo_elemento_b():
-    # Sequência de potências de 2
+def next_element_b():
     sequencia = [2, 4, 8, 16, 32, 64]
-    proximo = sequencia[-1] * 2
-    print("b) Próximo elemento:", proximo)
+    next = sequencia[-1] * 2
+    print("b) Próximo elemento:", next)
 
-def proximo_elemento_c():
-    # Sequência de quadrados perfeitos
+def next_element_c():
     sequencia = [0, 1, 4, 9, 16, 25, 36]
-    proximo = (len(sequencia))**2
-    print("c) Próximo elemento:", proximo)
+    next = (len(sequencia))**2
+    print("c) Próximo elemento:", next)
 
-def proximo_elemento_d():
-    # Sequência de quadrados de números pares
+def next_element_d():
     sequencia = [4, 16, 36, 64]
-    proximo = (len(sequencia) * 2 + 2) ** 2
-    print("d) Próximo elemento:", proximo)
+    next = (len(sequencia) * 2 + 2) ** 2
+    print("d) Próximo elemento:", next)
 
-def proximo_elemento_e():
-    # Sequência de Fibonacci
+def next_element_e():
     sequencia = [1, 1, 2, 3, 5, 8]
-    proximo = sequencia[-1] + sequencia[-2]
-    print("e) Próximo elemento:", proximo)
+    next = sequencia[-1] + sequencia[-2]
+    print("e) Próximo elemento:", next)
 
-def proximo_elemento_f():
-    # Sequência de números consecutivos com saltos
+def next_element_f():
     sequencia = [2, 10, 12, 16, 17, 18, 19]
-    proximo = sequencia[-1] + 1
-    print("f) Próximo elemento:", proximo)
+    next = sequencia[-1] + 1
+    print("f) Próximo elemento:", next)
 
-# Chamando as funções para calcular e imprimir o próximo elemento
-proximo_elemento_a()
-proximo_elemento_b()
-proximo_elemento_c()
-proximo_elemento_d()
-proximo_elemento_e()
-proximo_elemento_f()
+next_element_a()
+next_element_b()
+next_element_c()
+next_element_d()
+next_element_e()
+next_element_f()
